@@ -1,0 +1,49 @@
+.ttt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 6px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+  background: #fff;
+  cursor: pointer;
+}
+
+.square:disabled,
+.square[disabled] {
+  cursor: not-allowed;
+}
+
+.reset {
+  padding: 8px 12px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #145aa3;
+}

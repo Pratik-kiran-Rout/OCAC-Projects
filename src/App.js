@@ -4,6 +4,7 @@ import CounterApp from './counter/Counter';
 import WeatherApp from './Weather/Weather';
 import RecipeMenu from './recipe/RecipeMenu';
 import TodoApp from './todo/TodoApp';
+import TicTacToe from './tic_tac_toe/TicTacToe'; // keeps working if extension changes
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       { <CounterApp/> }
       { <RecipeMenu/> }
       { <TodoApp/> }
+      { <TicTacToe/> }
     </div>
   );
 }
