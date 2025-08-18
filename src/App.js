@@ -1,14 +1,18 @@
 import './App.css';
 // import { useState } from 'react';
-// import CounterApp from './pages/Counter';
-// import WeatherApp from './pages/Weather';
+import CounterApp from './counter/Counter';
+import WeatherApp from './Weather/Weather';
 import RecipeMenu from './recipe/RecipeMenu';
+import TodoApp from './todo/TodoApp';
 
-function App() {  return (
+function App() {
+  return (
     <div className='App'>
+      {/* Toggle the pages by commenting/uncommenting */}
       {/* <WeatherApp/> */}
       {/* <CounterApp/> */}
-      <RecipeMenu/>
+      {/* <RecipeMenu/> */}
+      {<TodoApp/> }
     </div>
   );
 }
