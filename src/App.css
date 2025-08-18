@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111827;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -34,5 +38,30 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Minimal base (no global centering, neutral background) */
+.App {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111827;
+}
+
+/* Weather app specific overrides */
+.weather-app {
+  margin: 0;
+  padding: 0;
+}
+
+/* Make main recipe view full page */
+.App > *:first-child {
+  flex: 1 1 auto;
+}
+
+/* Responsive container adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
   }
 }
