@@ -109,7 +109,7 @@ const RECIPES = [
     cookTimeMinutes: 15,
     shortDescription: "Crisp romaine with chicken, croutons, and parmesan.",
     imageUrl:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574926054530-540288c8e678?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     difficulty: "Easy",
     serves: 2,
     ingredients: ["Romaine", "Grilled chicken", "Croutons", "Parmesan", "Caesar dressing"],
@@ -142,45 +142,6 @@ const RECIPES = [
     steps: ["Mix batter.", "Cook on griddle until bubbles.", "Flip and serve."]
   },
   {
-    id: "chocolate-brownie",
-    name: "Chocolate Brownies",
-    category: "Dessert",
-    cookTimeMinutes: 35,
-    shortDescription: "Rich and fudgy chocolate brownies.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1606313564200-e75d5e30476b?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Easy",
-    serves: 8,
-    ingredients: ["Butter", "Sugar", "Eggs", "Cocoa", "Flour", "Chocolate chips"],
-    steps: ["Melt butter and cocoa.", "Mix with sugar and eggs.", "Add flour; bake."]
-  },
-  {
-    id: "smoothie-bowl",
-    name: "Tropical Smoothie Bowl",
-    category: "Snack",
-    cookTimeMinutes: 7,
-    shortDescription: "Thick mango-pineapple smoothie with toppings.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1542444459-db63c910d2c0?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Easy",
-    serves: 1,
-    ingredients: ["Mango", "Pineapple", "Banana", "Yogurt", "Granola", "Coconut"],
-    steps: ["Blend fruits and yogurt.", "Top with granola and coconut."]
-  },
-  {
-    id: "grilled-salmon",
-    name: "Grilled Salmon",
-    category: "Dinner",
-    cookTimeMinutes: 20,
-    shortDescription: "Lemon herb grilled salmon fillet.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1558036117-15d82a90b9b6?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Medium",
-    serves: 2,
-    ingredients: ["Salmon", "Lemon", "Olive oil", "Garlic", "Parsley", "Salt"],
-    steps: ["Marinate.", "Grill until flaky.", "Finish with lemon and herbs."]
-  },
-  {
     id: "veggie-burger",
     name: "Veggie Burger",
     category: "Lunch",
@@ -192,45 +153,6 @@ const RECIPES = [
     serves: 1,
     ingredients: ["Veggie patty", "Bun", "Lettuce", "Tomato", "Onion", "Sauce"],
     steps: ["Grill patty.", "Assemble burger with toppings."]
-  },
-  {
-    id: "shawarma-wrap",
-    name: "Chicken Shawarma Wrap",
-    category: "Dinner",
-    cookTimeMinutes: 30,
-    shortDescription: "Spiced chicken wrapped with garlic sauce.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1604908554184-83b0e1c4e5ab?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Medium",
-    serves: 2,
-    ingredients: ["Chicken", "Shawarma spices", "Flatbread", "Garlic sauce", "Pickles"],
-    steps: ["Marinate and cook chicken.", "Wrap with sauce and pickles."]
-  },
-  {
-    id: "tiramisu",
-    name: "Tiramisu",
-    category: "Dessert",
-    cookTimeMinutes: 40,
-    shortDescription: "Coffee-soaked ladyfingers with mascarpone.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1603899122617-3b2d2a9f3d2e?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Medium",
-    serves: 6,
-    ingredients: ["Ladyfingers", "Espresso", "Mascarpone", "Eggs", "Cocoa"],
-    steps: ["Dip ladyfingers.", "Layer with mascarpone.", "Chill and dust with cocoa."]
-  },
-  {
-    id: "mango-lassi",
-    name: "Mango Lassi",
-    category: "Drink",
-    cookTimeMinutes: 5,
-    shortDescription: "Refreshing mango yogurt drink.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1593829124030-9b76c1ef0a4f?q=80&w=1200&auto=format&fit=crop",
-    difficulty: "Easy",
-    serves: 2,
-    ingredients: ["Mango", "Yogurt", "Milk", "Sugar", "Cardamom"],
-    steps: ["Blend all ingredients until smooth."]
   }
 ];
 

@@ -1,6 +1,7 @@
 .weather-app {
   min-height: 100vh;
-  background: blue;
+  /* Softer gradient background */
+  background: linear-gradient(135deg, #e0f2fe 0%, #f5f3ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,12 +109,6 @@
 
 .weather-icon {
   font-size: 3rem;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
 }
 
 .temperature {

@@ -60,22 +60,64 @@
 
 .chip {
   border: 1px solid #e5e7eb;
-  background: #fff;
-  color: #111827;
   padding: 4px 10px;
   border-radius: 999px;
   cursor: pointer;
   font-size: 14px;
+  transition: all 0.3s ease;
 }
 
+/* Category specific colors */
+.chip:nth-child(1) { /* All */
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-color: #4f46e5;
+}
+
+.chip:nth-child(2) { /* Breakfast */
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-color: rgba(79, 70, 229, 1);
+}
+
+.chip:nth-child(3) { /* Lunch */
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-color: rgba(79, 70, 229, 1);
+}
+
+.chip:nth-child(4) { /* Dinner */
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-color: rgba(79, 70, 229, 1);
+}
+
+.chip:nth-child(5) { /* Dessert */
+  background: rgba(79, 70, 229, 1);
+  color: white;
+  border-color: rgba(79, 70, 229, 1);
+}
+
+.chip:nth-child(6) { /* Snack */
+  background: #8b5cf6;
+  color: white;
+  border-color: #8b5cf6;
+}
+
+.chip:nth-child(7) { /* Drink */
+  background: #14b8a6;
+  color: white;
+  border-color: #14b8a6;
+}
+
+/* Hover effects */
 .chip:hover {
-  background: #f9fafb;
+  filter: brightness(1.1);
+  transform: translateY(-1px);
 }
 
 .chip-active {
-  background: #111827;
-  color: #fff;
-  border-color: #111827;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px currentColor;
 }
 
 .favorite-toggle {
