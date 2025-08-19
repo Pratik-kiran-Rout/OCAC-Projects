@@ -10,11 +10,11 @@ function App() {
   return (
     <div className='App'>
       {/* Toggle the pages by commenting/uncommenting */}
-      { <WeatherApp/> }
-      { <CounterApp/> }
+      { <WeatherApp/>}
+      { <CounterApp/>}
       { <RecipeMenu/> }
-      { <TodoApp/> }
-      { <TicTacToe/> }
+      {<TodoApp/> }
+      {<TicTacToe/>}
     </div>
   );
 }
