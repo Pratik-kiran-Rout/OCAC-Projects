@@ -12,7 +12,7 @@ function App() {
       {/* Toggle the pages by commenting/uncommenting */}
       { <WeatherApp/>}
       { <CounterApp/>}
-      { <RecipeMenu/> }
+      { <RecipeMenu/> } {/* This is the Recipe Menu */}
       {<TodoApp/> }
       {<TicTacToe/>}
     </div>
