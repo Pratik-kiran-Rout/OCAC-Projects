@@ -4,18 +4,21 @@ import CounterApp from './counter/Counter';
 import WeatherApp from './Weather/Weather';
 import RecipeMenu from './recipe/RecipeMenu';
 import TodoApp from './todo/TodoApp';
-import TicTacToe from './tic_tac_toe/TicTacToe'; // keeps working if extension changes
+import TicTacToe from './tic_tac_toe/TicTacToe';
+import ThemeSwitcher from './theme/theme';
+import ImageToggle from './image-toggle/ImageToggle';
 
 function App() {
   return (
-    <div className='App'>
-      {/* Toggle the pages by commenting/uncommenting */}
-      { <WeatherApp/>}
-      { <CounterApp/>}
-      { <RecipeMenu/> } {/* This is the Recipe Menu */}
-      {<TodoApp/> }
-      {<TicTacToe/>}
-    </div>
+      <div className='App'>
+        {<ImageToggle />}
+        {<WeatherApp />}
+        {<CounterApp />}
+        {<RecipeMenu />}
+        {<TodoApp />}
+        {<TicTacToe />}
+        {<ThemeSwitcher />}
+      </div>
   );
 }
 

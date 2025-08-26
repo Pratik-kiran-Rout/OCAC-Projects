@@ -1,0 +1,40 @@
+.image-toggle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container.visible {
+    opacity: 1;
+}
+
+.image-container.hidden {
+    opacity: 0;
+}
+
+.toggle-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
