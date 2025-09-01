@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.4s ease, color 0.4s ease;
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background: #f9f9f9;
+  color: #222;
+}
+
+.dark {
+  background: #222;
+  color: #f9f9f9;
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.light .toggle-btn {
+  background: #222;
+  color: #fff;
+}
+
+.dark .toggle-btn {
+  background: #f9f9f9;
+  color: #222;
+}

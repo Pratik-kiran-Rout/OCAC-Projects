@@ -5,7 +5,7 @@ import WeatherApp from './Weather/Weather';
 import RecipeMenu from './recipe/RecipeMenu';
 import TodoApp from './todo/TodoApp';
 import TicTacToe from './tic_tac_toe/TicTacToe';
-import ThemeSwitcher from './theme/theme';
+import Toggle from './theme/Toggle';
 import ImageToggle from './image-toggle/ImageToggle';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         {<RecipeMenu />}
         {<TodoApp />}
         {<TicTacToe />}
-        {<ThemeSwitcher />}
+        {<Toggle />}
       </div>
   );
 }
