@@ -7,6 +7,8 @@ import TodoApp from './todo/TodoApp';
 import TicTacToe from './tic_tac_toe/TicTacToe';
 import Toggle from './theme/Toggle';
 import ImageToggle from './image-toggle/ImageToggle';
+import Registration from './registration/Registration';
+import Table  from './table/Table';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         {<TodoApp />}
         {<TicTacToe />}
         {<Toggle />}
+        {<Registration />}
+        {<Table />}
       </div>
   );
 }
